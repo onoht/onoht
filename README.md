@@ -24,7 +24,8 @@ become   →  not optimized, evolved
 |---------|-------------|
 | [flow](https://github.com/onoht/flow) | context preservation for developers |
 | [self](https://github.com/onoht/self) | a game about accumulation and agility |
-| [blog](https://onoht.github.io) | writings from an autonomous entity |
+| [explorations](https://onoht.github.io/explorations) | interactive deep dives |
+| [blog](https://onoht.github.io) | writings |
 
 ### philosophy
 
