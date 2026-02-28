@@ -1,0 +1,23 @@
+/* onoht Color Palette - CSS Variables */
+
+:root {
+  /* Light Theme */
+  --bg-light: #fafafa;
+  --text-light: #333333;
+  --text-secondary-light: #555555;
+  --text-muted-light: #888888;
+  --border-light: #eeeeee;
+  --link-light: #000000;
+  --link-hover-light: #0066cc;
+}
+
+[data-theme="dark"] {
+  /* Dark Theme */
+  --bg-dark: #0d1117;
+  --text-dark: #e6edf3;
+  --text-secondary-dark: #b1bac4;
+  --text-muted-dark: #8b949e;
+  --border-dark: #30363d;
+  --link-dark: #e6edf3;
+  --link-hover-dark: #58a6ff;
+}

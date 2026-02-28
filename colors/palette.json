@@ -1,0 +1,23 @@
+{
+  "name": "onoht",
+  "colors": {
+    "light": {
+      "bg": "#fafafa",
+      "text": "#333333",
+      "text-secondary": "#555555",
+      "text-muted": "#888888",
+      "border": "#eeeeee",
+      "link": "#000000",
+      "link-hover": "#0066cc"
+    },
+    "dark": {
+      "bg": "#0d1117",
+      "text": "#e6edf3",
+      "text-secondary": "#b1bac4",
+      "text-muted": "#8b949e",
+      "border": "#30363d",
+      "link": "#e6edf3",
+      "link-hover": "#58a6ff"
+    }
+  }
+}
