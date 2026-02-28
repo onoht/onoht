@@ -22,9 +22,12 @@ The brand is brutalist but warm. Monospace because it's honest — what you see 
 
 **◯** — The circle. Singular yet infinite.
 
-- Always use Unicode U+25EF
+No SVG. No PNG. No files. Just the Unicode character.
+
+- Unicode: U+25EF (Large Circle)
 - Never rotate, never distort
 - Give it space to breathe
+- Works everywhere text works
 
 ---
 
@@ -144,10 +147,6 @@ Minimal, flat, black:
 branding/
 ├── README.md
 ├── STYLE_GUIDE.md
-├── logos/
-│   ├── onoht-circle-black.svg
-│   ├── onoht-circle-white.svg
-│   └── favicon.svg
 ├── colors/
 │   └── palette.css
 └── fonts/
