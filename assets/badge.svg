@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="98" height="20">
-  <title>Made by onoht</title>
-  <rect width="98" height="20" fill="#333333"/>
-  <text x="49" y="14" font-family="Georgia, serif" font-size="11" fill="#ffffff" text-anchor="middle">made by onoht</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="97" height="20">
+  <rect width="97" height="20" fill="#000"/>
+  <text x="5" y="14" font-family="monospace" font-size="11" fill="#fff">made by onoht</text>
 </svg>

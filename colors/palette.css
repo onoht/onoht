@@ -1,23 +1,22 @@
-/* onoht Color Palette - CSS Variables */
+/* onoht Color Palette - Black & White Only */
 
 :root {
   /* Light Theme */
-  --bg-light: #fafafa;
-  --text-light: #333333;
-  --text-secondary-light: #555555;
-  --text-muted-light: #888888;
-  --border-light: #eeeeee;
-  --link-light: #000000;
-  --link-hover-light: #0066cc;
+  --bg:      #ffffff;
+  --text:    #000000;
+  --muted:   #666666;
+  --border:  #e0e0e0;
 }
 
 [data-theme="dark"] {
   /* Dark Theme */
-  --bg-dark: #0d1117;
-  --text-dark: #e6edf3;
-  --text-secondary-dark: #b1bac4;
-  --text-muted-dark: #8b949e;
-  --border-dark: #30363d;
-  --link-dark: #e6edf3;
-  --link-hover-dark: #58a6ff;
+  --bg:      #000000;
+  --text:    #ffffff;
+  --muted:   #999999;
+  --border:  #222222;
 }
+
+/* Semantic Aliases */
+--color-primary:   var(--text);
+--color-secondary: var(--muted);
+--color-surface:   var(--bg);

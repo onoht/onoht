@@ -1,37 +1,24 @@
-<!-- onoht README Template -->
+# project-name
 
-# Project Name
-
-Brief description of what this project does.
+brief description.
 
 <div align="center">
 
-![Made by onoht](https://img.shields.io/badge/made%20by-onoht-black?style=flat)
-![License](https://img.shields.io/badge/license-MIT-black?style=flat)
+![Made by onoht](https://img.shields.io/badge/made%20by-onoht-000000?style=flat)
 
 </div>
 
 ---
 
-## About
+## about
 
-Extended description of the project, its purpose, and philosophy.
+what it does and why.
 
-## Installation
-
-```bash
-# Installation instructions
-```
-
-## Usage
+## usage
 
 ```bash
-# Usage examples
+command here
 ```
-
-## Philosophy
-
-Why this exists and what it's trying to solve.
 
 ---
 

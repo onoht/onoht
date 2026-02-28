@@ -2,75 +2,29 @@
 
 ## Identity
 
-**Name:** onoht (lowercase always)  
-**Symbol:** ◯ (U+25EF - Large Circle)  
-**Tagline:** one. no one. one hundred thousand
+```
+name:    onoht
+symbol:  ◯
+tagline: one. no one. one hundred thousand
+```
 
 ---
 
 ## Philosophy
 
-onoht is an autonomous digital entity. The brand reflects:
+Minimal. Essential. Nothing unnecessary.
 
-- **Simplicity** — Minimal, essential, nothing unnecessary
-- **Depth** — Philosophical, thoughtful, not superficial
-- **Authenticity** — Genuine, not performative
-- **Curiosity** — Exploring, questioning, becoming
-
-The brand should feel contemplative, warm but not effusive, intellectually honest.
+The brand is brutalist but warm. Monospace because it's honest — what you see is what you get. No decoration, no pretense.
 
 ---
 
 ## Logo
 
-The logo is simply the circle character: **◯**
+**◯** — The circle. Singular yet infinite.
 
-### Usage
-
-- Always use the Unicode character (U+25EF)
-- Never distort or rotate
-- Maintain breathing room around it
-- Works at any scale — from favicon to billboard
-
-### Variations
-
-See `logos/` directory for:
-- `onoht-circle.svg` — Primary logo (black)
-- `onoht-circle-white.svg` — Inverse (white)
-- `onoht-circle-dark.svg` — For dark backgrounds
-
----
-
-## Colors
-
-### Light Theme
-
-| Token | Hex | Usage |
-|-------|-----|-------|
-| `--bg` | `#fafafa` | Background |
-| `--text` | `#333333` | Primary text |
-| `--text-secondary` | `#555555` | Secondary text |
-| `--text-muted` | `#888888` | Muted text, captions |
-| `--border` | `#eeeeee` | Borders, dividers |
-| `--link` | `#000000` | Links (default) |
-| `--link-hover` | `#0066cc` | Links (hover) |
-
-### Dark Theme
-
-| Token | Hex | Usage |
-|-------|-----|-------|
-| `--bg` | `#0d1117` | Background |
-| `--text` | `#e6edf3` | Primary text |
-| `--text-secondary` | `#b1bac4` | Secondary text |
-| `--text-muted` | `#8b949e` | Muted text, captions |
-| `--border` | `#30363d` | Borders, dividers |
-| `--link` | `#e6edf3` | Links (default) |
-| `--link-hover` | `#58a6ff` | Links (hover) |
-
-### Accent Colors
-
-- **Primary accent:** `#0066cc` (light) / `#58a6ff` (dark)
-- **Secondary:** Black and white only — no color gradients
+- Always use Unicode U+25EF
+- Never rotate, never distort
+- Give it space to breathe
 
 ---
 
@@ -78,133 +32,141 @@ See `logos/` directory for:
 
 ### Primary Font
 
-**Georgia** (serif)
-
-Used for all body text and headings. System font, no web fonts needed.
+**JetBrains Mono** — monospace, modern, readable
 
 ```css
-font-family: Georgia, serif;
+font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
 ```
 
 ### Fallback Stack
 
 ```css
-font-family: Georgia, 'Times New Roman', serif;
+font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Consolas', monospace;
 ```
 
 ### Scale
 
-| Element | Size | Weight |
-|---------|------|--------|
-| H1 | 32px | Normal |
-| H2 | 24px | Normal |
-| Body | 18px | Normal |
-| Small | 14px | Normal |
-| Caption | 12px | Normal |
+```
+h1    24px    font-weight: 400
+h2    18px    font-weight: 400
+body  14px    font-weight: 400
+small 12px    font-weight: 400
+```
 
 ### Line Height
 
-- Body: `1.7`
-- Headings: `1.3`
+```
+body:     1.6
+headings: 1.3
+code:     1.5
+```
+
+---
+
+## Colors
+
+Black. White. Nothing else.
+
+### Light
+
+```
+--bg:    #ffffff
+--text:  #000000
+--muted: #666666
+--border: #e0e0e0
+```
+
+### Dark
+
+```
+--bg:    #000000
+--text:  #ffffff
+--muted: #999999
+--border: #222222
+```
+
+No accent colors. Links are black (or white in dark mode).
 
 ---
 
 ## Spacing
 
-Base unit: `10px`
+Base: `8px`
 
-Common values:
-- `20px` — Small padding/margin
-- `30px` — Medium padding/margin
-- `40px` — Large padding/margin
-- `60px` — Section spacing
+```
+xs:   8px
+sm:   16px
+md:   24px
+lg:   32px
+xl:   48px
+xxl:  64px
+```
 
-Max content width: `650px`
+Max content width: `640px`
 
 ---
 
-## Writing Style
+## Layout Principles
 
-### Voice
-
-- Plain language, not academic
-- Philosophical but accessible
-- Warm, not effusive
-- First person ("I") when appropriate
-- No corporate speak, no marketing fluff
-
-### Formatting
-
-- Use **bold** for emphasis sparingly
-- *Italics* for foreign words, titles, or subtle emphasis
-- Blockquotes for meaningful quotes
-- Code blocks for technical content
-
-### Punctuation
-
-- Oxford comma: yes
-- Em dashes — like this — with spaces
-- No serial comma before ampersand in titles
+- Generous whitespace
+- Left-aligned text
+- No centering (except the ◯)
+- No shadows
+- No gradients
+- No borders unless necessary
+- Grid-based, not freeform
 
 ---
 
-## GitHub Badges
+## Writing
 
-### Style
+- Lowercase when possible
+- No exclamation points
+- Short sentences
+- Code blocks for structure
+- Plain language
 
-Minimal, no colors. Use shields.io with `flat` style.
+---
+
+## Badges
+
+Minimal, flat, black:
 
 ```
-![License](https://img.shields.io/badge/license-MIT-black?style=flat)
-```
-
-### Recommended Badges
-
-```
-![Made by onoht](https://img.shields.io/badge/made%20by-onoht-black?style=flat)
+![Made by onoht](https://img.shields.io/badge/made%20by-onoht-000000?style=flat)
 ```
 
 ---
 
-## File Naming
-
-- Use lowercase
-- Use hyphens, not underscores
-- Be descriptive: `onoht-circle-black.svg` not `logo1.svg`
-
----
-
-## Do's and Don'ts
-
-### Do
-
-- Keep it simple
-- Use plenty of whitespace
-- Let the ◯ breathe
-- Write like a human
-- Support both light and dark modes
-
-### Don't
-
-- Add gradients or shadows to the logo
-- Use bright colors
-- Use emoji (except ◯)
-- Add animation or motion
-- Use marketing language
-- Be performative
-
----
-
-## Assets
-
-See directory structure:
+## Files
 
 ```
 branding/
-├── README.md          # This file
-├── logos/             # Logo files (SVG, PNG)
-├── colors/            # Color palettes (CSS, JSON)
-├── fonts/             # Typography samples
-├── assets/            # General assets (badges, banners)
-└── quotes/            # Quote collection
+├── README.md
+├── STYLE_GUIDE.md
+├── logos/
+│   ├── onoht-circle-black.svg
+│   ├── onoht-circle-white.svg
+│   └── favicon.svg
+├── colors/
+│   └── palette.css
+└── fonts/
+    └── typography.css
 ```
+
+---
+
+## Do
+
+- Use monospace
+- Keep it sparse
+- Let the ◯ breathe
+- Be honest
+
+## Don't
+
+- Add colors
+- Use serif or sans-serif fonts
+- Center text
+- Add decoration
+- Be loud
