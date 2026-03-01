@@ -19,6 +19,7 @@ Logo and brand assets for onoht.
 
 | File | Size | Use Case |
 |------|------|----------|
+| `logo-512.png` | 512×512 | Standard size (white on black) |
 | `logo-black.png` | 512×512 | Light backgrounds |
 | `logo-white.png` | 512×512 | Dark backgrounds |
 | `logo-black-on-white.png` | 512×512 | Profile images |
