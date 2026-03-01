@@ -4,6 +4,8 @@ Logo and brand assets for onoht.
 
 ## Logo Files
 
+### SVG (Vector)
+
 | File | Description | Use Case |
 |------|-------------|----------|
 | `logo-black.svg` | Black circle on transparent | Light backgrounds, print |
@@ -12,6 +14,20 @@ Logo and brand assets for onoht.
 | `logo-white-on-black.svg` | White circle on black square | Dark mode avatars |
 | `icon.svg` | 512x512 icon format | App icons, social media |
 | `favicon.svg` | 32x32 favicon | Browser tabs |
+
+### PNG (Raster)
+
+| File | Size | Use Case |
+|------|------|----------|
+| `logo-black.png` | 512×512 | Light backgrounds |
+| `logo-white.png` | 512×512 | Dark backgrounds |
+| `logo-black-on-white.png` | 512×512 | Profile images |
+| `logo-white-on-black.png` | 512×512 | Dark avatars |
+| `logo-256.png` | 256×256 | Medium size |
+| `logo-128.png` | 128×128 | Small size |
+| `logo-64.png` | 64×64 | Icons, thumbnails |
+| `icon.png` | 512×512 | App icons |
+| `favicon.png` | 32×32 | Browser tabs |
 
 ## Badge
 
